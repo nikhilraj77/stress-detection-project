@@ -1,0 +1,11 @@
+Metric,Value
+Mean Accuracy,0.880 ± 0.091
+Mean F1 Score,0.795 ± 0.126
+Mean AUC,0.953 ± 0.043
+Pooled Precision,0.659
+Pooled Recall (Sensitivity),0.946
+Pooled Specificity,0.862
+Validation Protocol,Leave-One-Subject-Out (LOSO)
+Num. Folds (Subjects),11
+Model Parameters,37,233
+CPU Inference Latency,3.91 ms/window

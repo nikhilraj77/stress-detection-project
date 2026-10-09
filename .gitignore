@@ -1,0 +1,55 @@
+
+# =========================
+# Python cache and compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Secrets and environment files
+# =========================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# =========================
+# Dataset files
+# Keep raw WESAD recordings and generated datasets out of GitHub
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# Trained model weights
+# Exclude for now; check file sizes before deciding to publish
+# =========================
+models/*.pt
+
+# =========================
+# Keep evaluation results and plots included
+# loso_results.json, report_plots/, trend_plots/, and other
+# non-ignored result files can be committed
+# =========================
+
+# =========================
+# Editors and operating system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
